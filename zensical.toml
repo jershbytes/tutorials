@@ -4,12 +4,20 @@ site_name = "Jershlabs Wiki"
 nav = [
     {"Home" = "index.md"},
     {"Guides" = [
-        "mounting-drives.md",
-        "setting-up-git.md",
-        "setting-up-semaphore.md",
-        "setting-up-terraform.md",
-        "setting-up-wsl.md",
-    ]}
+        {"Linux" = [
+            {"Mounting Droves" = "linux/mounting-drives.md"},
+            {"Setting up WSL" = "linux/setting-up-wsl.md"},
+    ]},
+        {"Git" = [
+            {"Git Gud" = "git/setting-up-git.md"},
+    ]},
+        {"Ansible" = [
+            {"Setting up Semaphore" = "ansible/setting-up-semaphore.md"}
+    ]},
+        {"Terraform" = [
+            {"Setting up Terraform" = "terraform/setting-up-terraform.md"}
+    ]},
+    ]},
 ]
 
 # Palette toggle for automatic mode
