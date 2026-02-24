@@ -1,5 +1,5 @@
 <h1 align="center">
-    jershbytes/labDocs
+    jershbytes/tutorials
 </h1>
 
 <p align="center">
@@ -15,10 +15,10 @@
 
 ```bash
 # Clone the Repo
-git clone https://github.com/jershbytes/labDocs.git
+git clone https://github.com/jershbytes/tutorials.git
 
 # Change into the directory
-cd labDocs
+cd tutorials
 
 # Initialize the project
 uv sync

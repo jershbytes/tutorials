@@ -1,5 +1,8 @@
 [project]
-site_name = "Jershlabs Wiki"
+site_name = "Jershlabs Tutorials"
+repo_url = "https://github.com/jershbytes/tutorials"
+repo_name = "jershbytes/tutorials"
+
 
 nav = [
     {"Home" = "index.md"},
@@ -42,6 +45,7 @@ toggle.name = "Switch to light mode"
 
 [project.theme.icon]
 logo = "lucide/square-library"
+repo = "fontawesome/brands/git-alt"
 
 [project.theme]
 favicon = "images/homelab.png"
