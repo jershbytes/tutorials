@@ -8,7 +8,7 @@ nav = [
     {"Home" = "index.md"},
     {"Guides" = [
         {"Linux" = [
-            {"Mounting Droves" = "linux/mounting-drives.md"},
+            {"Mounting Drives" = "linux/mounting-drives.md"},
             {"Setting up WSL" = "linux/setting-up-wsl.md"},
     ]},
         {"Git" = [
